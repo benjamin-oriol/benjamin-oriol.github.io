@@ -1,0 +1,280 @@
+@font-face{
+    font-family: 'Avenir Next';
+    src: url('../../font/Avenir Next.ttc') format('truetype');
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Avenir Next', sans-serif;
+}
+
+.top-home{
+    background-image: url(../../assets/images/velo-musculaire-francais-qualite-vamdrais-min.webp);
+    background-size: cover !important;
+    height: 700px;
+    background-position-y: center;
+}
+
+.logo-vamdrais{
+    width: 30%;
+    display: block;
+    margin: auto;
+}
+
+.logo-vamdrais-footer{
+    width: 18%;
+    display: block;
+    margin: auto;
+}
+
+.bg-body{
+    background-image: url('../../assets/images/background-vamdrais-web.jpg')
+}
+
+.navbar a:hover{
+    text-decoration: none;
+    color: #fff;
+}
+
+.navbar-bg{
+    background-color: #003149;
+}
+
+.row.navbar {
+    font-size: 20px;
+    font-family: 'Outfit', sans-serif !important;
+}
+
+.nav-item{
+    color: #fff;
+}
+
+.nav-item:nth-child(1n) {
+    border-right: 1px solid #fff !important;
+}
+
+.nav-item:last-child {
+    border-right: none !important;
+}
+
+.nav-item:hover{
+    background-color: rgba(255, 255, 255, 0.095);
+}
+
+.title{
+    font-size: 54px;
+}
+
+.text-description{
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.bloc-acrostic{
+    padding-left: 120px;
+    padding-top: 140px !important;
+}
+
+.acrostic{
+    font-size: 45px;
+}
+
+.acrostic .first-character{
+    font-size: 75px;
+    font-weight: 700;
+}
+
+a.button-bike {
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 1px solid #003149;
+    padding: 10px 15px;
+    border-radius: 25px;
+    color: #003149;
+    background-color: #fff;
+}
+
+a.button-bike:hover{
+    background-color: #003149;
+    color: #fff !important;
+}
+
+.active{
+    background-color: #003149 !important;
+    color: #fff !important;
+}
+
+.text-description-bike{
+    font-size: 18px;
+    line-height: 36px;
+}
+
+.spec-techniques {
+    font-size: 18px;
+    line-height: 40px;
+}
+
+li {
+    font-size: 14px;
+}
+
+li>span{
+    font-size: 18px;
+}
+
+.icon-place{
+    filter: invert(11%) sepia(79%) saturate(1369%) hue-rotate(196deg) brightness(95%) contrast(94%);
+}
+
+.icon-back{
+    filter: brightness(0) invert(1);
+    padding-top: 10px !important;
+}
+
+span.place-title {
+    font-size: 18px;
+    font-weight: 300;
+    margin-top: -10px;
+    margin-left: 16px;
+    position: absolute;
+}
+
+.place-address {
+    font-size: 12px;
+}
+
+.i4ewOd-pzNkMb-haAclf {
+    display: none !important;
+}
+
+.text-contact{
+    line-height: 27px;
+}
+
+.text-mail{
+    text-decoration: none;
+    color: #003149;
+    font-weight: 500;
+}
+
+.text-end{
+    font-size: 65px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 600;
+}
+
+.img-end{
+    height: 80%;
+}
+
+.roll-up{
+    display: none !important;
+}
+
+.cpr{
+    border-bottom: 1px solid #ffffff47;
+}
+
+.legal-link{
+    font-size: 13px;
+}
+
+/* generic style */
+.dark-blue{
+    color: #003149;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Outfit', sans-serif;
+    font-weight: 600;
+}
+
+h2{
+    font-size: 40px;
+}
+
+h3{
+    color: #003149;
+    border-left: 5px solid #003149;
+    font-size: 35px;
+}
+
+h4{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+ul>li>span{
+    font-weight: 700;
+}
+
+i.bi.bi-geo-fill {
+    font-size: 30px;
+}
+
+/* on mobile */
+@media only screen and (max-width:500px){
+    .logo-vamdrais{
+        width: 50%;
+    }
+    .logo-vamdrais-footer{
+        width: 50%;
+    }
+    .top-home{
+        height: 400px;
+    }
+    .nav-item{
+        border-bottom: 1px solid #fff;
+    }
+    .nav-item:last-child {
+        border-bottom: none !important;
+    }
+    .nav-item:nth-child(1n) {
+        border-right: #003149 !important;
+    }
+    .nav-item:last-child {
+        border-right: none !important;
+    }
+    .bloc-acrostic {
+        padding-left: 55px;
+        padding-top: 0px !important;
+    }
+    .roll-up{
+        display: block !important;
+        position: relative;
+        bottom: 70px;
+        height: 25px;
+    }
+    
+    .icon-roll-up{
+        font-size: 50px;
+    }
+    
+    .iframe{
+        height: 250px !important;
+    }
+
+    .text-contact{
+        line-height: 1.5;
+    }
+    .text-end{
+        font-size: 45px;
+    }
+
+    /* generic style */
+    h1{
+        font-size: 35px !important;
+    }
+
+    h2{
+        font-size: 25px;
+    }
+
+    h4{
+        font-size: 23px;
+    }
+
+}
